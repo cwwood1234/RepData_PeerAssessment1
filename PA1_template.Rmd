@@ -28,7 +28,8 @@ Calculate and report the total number of missing values in the dataset (i.e., th
 sum(is.na(activity$steps))
 ```
 
-Create a new dataset that is equal to the original dataset but with the missing data filled in.  Fill in missing values with the mean for that 5-minute interval.
+Create a new dataset that is equal to the original dataset but with the missing data filled in.
+Strategy:  Fill in missing values with the mean for that 5-minute interval.
 ```{r fill_in_missing_values}
 # Create a new data frame so we don't overwrite the dataframe with the missing values
 new_activity <- activity
