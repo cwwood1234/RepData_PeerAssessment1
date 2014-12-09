@@ -248,7 +248,8 @@ hist(tapply(activity$steps, activity$date, sum), col=&quot;blue&quot;, main=&quo
 <pre><code>## [1] 2304
 </code></pre>
 
-<p>Create a new dataset that is equal to the original dataset but with the missing data filled in.  Fill in missing values with the mean for that 5-minute interval.</p>
+<p>Create a new dataset that is equal to the original dataset but with the missing data filled in.
+Strategy:  Fill in missing values with the mean for that 5-minute interval.</p>
 
 <pre><code class="r"># Create a new data frame so we don&#39;t overwrite the dataframe with the missing values
 new_activity &lt;- activity

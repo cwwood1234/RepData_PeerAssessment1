@@ -56,7 +56,8 @@ sum(is.na(activity$steps))
 ## [1] 2304
 ```
 
-Create a new dataset that is equal to the original dataset but with the missing data filled in.  Fill in missing values with the mean for that 5-minute interval.
+Create a new dataset that is equal to the original dataset but with the missing data filled in.
+Strategy:  Fill in missing values with the mean for that 5-minute interval.
 
 ```r
 # Create a new data frame so we don't overwrite the dataframe with the missing values
